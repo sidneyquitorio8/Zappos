@@ -1,0 +1,133 @@
+/* 
+    Document   : style
+    Created on : Dec 18, 2012, 11:35:42 PM
+    Author     : Sidney
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+.imageContainer {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.imageInContainer {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 87%;
+    background-color: #CCCCCC;
+    overflow: hidden;
+    text-align:center;
+    margin-bottom: 10%;
+
+
+}
+
+/**
+    When the screen is big enough, make the paragraphs appear next to each other,
+    and make the navigation horiziontal
+*/
+
+@media only screen and (min-width: 768px) {
+    .half_screen {
+        position: relative;
+        margin-top: 1%;
+        margin-botton: 1%;
+        height: 75%;
+        width: 46.75%;
+        background-color:  #29293D;
+        float: left;
+        margin-left: 2%;
+
+                
+    }  
+        
+    p { 
+        color: #000000; 
+
+    }
+    
+    li {
+        display: inline;
+    }
+    
+
+}
+
+/**
+    When the screen size is almost the size of a smart phone, remove images
+**/
+
+@media only screen and (max-width: 500px) {
+    .image {
+        display: none;
+    }
+}
+
+
+
+/**
+    Basic background styles
+*/
+    body { 
+        background-color: #000000;
+
+
+       
+    } 
+    
+    html {
+        width: 100%;
+        height: 100%
+
+    }
+
+    
+    h2 { 
+        color: #666699;
+        text-align:center;
+    }
+    
+    h4 { 
+        color: #666699;
+        text-align:center;
+    }
+
+
+    ul {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        padding-top:6px;
+        padding-bottom:6px;
+    }
+
+
+    a:link,a:visited {
+        font-weight:bold;
+        color:#FFFFFF;
+        background-color:#33334C;
+        text-align:center;
+        padding:6px;
+        text-decoration:none;
+        text-transform:uppercase;
+    }
+
+    a:hover,a:active {
+        background-color:	#1F1F2E;
+    }
+
+    p { 
+        color: #000000; 
+
+    }
